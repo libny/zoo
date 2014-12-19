@@ -1,13 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Limas
- * Date: 18/12/2014
- * Time: 19:46
- */
-
-?>
-
 <!DOCTYPE html>
 <html lang="en"">
 <head>
@@ -75,9 +65,12 @@
 
 <div class="container">
 
-    <div >
-        Datos Aqui
+    <div class="row" >
+        <div class="col-sm-8 jumbotron">
+            <h1>Sistema de Zoologico</h1>
+            <p>Este es el sistema que ayuda a administrar un zoologico</p>
 
+        </div>
     </div>
 
     <div style="height: 70px;"></div>
