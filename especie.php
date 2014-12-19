@@ -66,11 +66,30 @@
 <div class="container">
 
     <div class="row" >
-        <div class="col-sm-8 jumbotron">
-            <h1>Sistema de Zoologico</h1>
-            <p>Este es el sistema que ayuda a administrar un zoologico</p>
+        <form  name="crearAnimal" class="form-horizontal col-sm-8" role="form" action="crearEspecie.php" method="post">
 
-        </div>
+            <div class="form-group">
+                <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+                <div class="col-sm-6">
+                    <input id="nombre" name="nombre" type="text" class="form-control"  required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="nombreCientifico" class="col-sm-2 control-label">Nombre Cientifico</label>
+                <div class="col-sm-6">
+                    <input name="nombreCientifico" id="nombreCientifico" type="text" class="form-control"  required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion" class="col-sm-2 control-label">Descripcion</label>
+                <div class="col-sm-6">
+                    <input name="descripcion" id="descripcion" type="text" class="form-control"  required="">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary col-sm-2" >Update</button>
+        </form>
     </div>
 
     <div style="height: 70px;"></div>
