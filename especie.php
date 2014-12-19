@@ -65,8 +65,16 @@
 
 <div class="container">
 
+
     <div class="row" >
-        <form  name="crearAnimal" class="form-horizontal col-sm-8" role="form" action="crearEspecie.php" method="post">
+        <div class="page-header">
+            <h1> Crear Especie</h1>
+            <small>
+            Ingrese los datos de la especie
+            </small>
+
+        </div>
+        <form  name="crearEspecie" class="form-horizontal col-sm-8" role="form" action="crearEspecie.php" method="post">
 
             <div class="form-group">
                 <label for="nombre" class="col-sm-2 control-label">Nombre</label>

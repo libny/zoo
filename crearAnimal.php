@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: saul
- * Date: 19/12/2014
- * Time: 1:07
- */
+
+require_once("clasess/Animal.php");
+
+$animal = new Animal($_POST["nombre"],$_POST["edad"],$_POST["especie"],$_POST["fechaNacimiento"]);
+$animal->Guardar();
+
+header("Location: index.php");
+die();
