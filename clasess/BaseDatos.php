@@ -33,4 +33,18 @@ class BaseDatos {
         $con->close();
 
     }
+
+    public static  function QuerySelect($query){
+        $con = BaseDatos::Conexion();
+        $result = $con->query($query);
+        $arreglo = array();
+
+       if ($result->num_rows > 0){
+            while($row = $result->fetch_assoc()){
+                $arreglo[] = $row;
+            }
+       }
+        $con->close();
+        return $arreglo;
+    }
 }
