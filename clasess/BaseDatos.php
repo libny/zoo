@@ -9,7 +9,7 @@
 class BaseDatos {
 
     public static function Conexion(){
-        $con = new mysqli("localhost","root","root","sizo");
+        $con = new mysqli("localhost","root","limaslimas","sizo");
 
         if($con->connect_error){
 
