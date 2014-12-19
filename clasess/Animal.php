@@ -1,5 +1,6 @@
 <?php
 require_once("BaseDatos.php");
+
 /**
  * Created by PhpStorm.
  * User: saul
@@ -13,6 +14,24 @@ class Animal {
     private $edad;
     private $especie_id;
     private $fechaNacimiento;
+    private $id;
+    private $fechaIngreso;
+
+    /**
+     * @return mixed
+     */
+    public function getFechaIngreso()
+    {
+        return $this->fechaIngreso;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
     /**
      * @return mixed
@@ -68,5 +87,40 @@ class Animal {
                       ";
 
         BaseDatos::EjecutarQuery($query);
+    }
+
+    public function  Obtener(){
+        $query = "SELECT * FROM animal;";
+
+        $result =BaseDatos::QuerySelect($query);
+
+        $arreglo = array();
+
+        $count = count($result);
+
+
+
+        for($x = 0; $x < $count; $x++) {
+
+            $nombre = $result[$x]["Nombre"];
+            $edad = $result[$x]["Edad"];
+            $fechaIngreso= $result[$x]["FechaIngreso"];
+            $fechaNacimiento= $result[$x]["FechaNacimiento"];
+            $especie_id= $result[$x]["Especie_id"];
+
+            $id= $result[$x]["Id"];
+
+            $animal = new Animal($nombre,$edad,$especie_id, $fechaNacimiento);
+
+
+            $animal->id =$id;
+            $animal->fechaIngreso =$fechaIngreso;
+
+            $arreglo[] = $animal;
+
+        }
+
+        return $arreglo;
+
     }
 }
