@@ -35,17 +35,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listarespecies.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listarespecies.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listarespecies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27038628" vertical-offset="1370" max-vertical-offset="2448">
-              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state vertical-scroll-proportion="-4.8461537" vertical-offset="1370" max-vertical-offset="2448">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-                <marker date="1418980293534" expanded="true" signature="85:104" placeholder="..." />
-                <marker date="1418980293534" expanded="true" signature="414:427" placeholder="..." />
+                <marker date="1418980426963" expanded="true" signature="85:104" placeholder="..." />
+                <marker date="1418980426963" expanded="true" signature="414:427" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="especie.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/especie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.027897" vertical-offset="0" max-vertical-offset="2125">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,11 +94,11 @@
         <option value="$PROJECT_DIR$/listaranimales.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/clasess/Animal.php" />
-        <option value="$PROJECT_DIR$/especie.php" />
         <option value="$PROJECT_DIR$/crearEspecie.php" />
         <option value="$PROJECT_DIR$/clasess/Especie.php" />
         <option value="$PROJECT_DIR$/clasess/BaseDatos.php" />
         <option value="$PROJECT_DIR$/listarespecies.php" />
+        <option value="$PROJECT_DIR$/especie.php" />
       </list>
     </option>
   </component>
@@ -329,14 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/especie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5450643" vertical-offset="351" max-vertical-offset="2125">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clasess/BaseDatos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="10.846154" vertical-offset="384" max-vertical-offset="850">
@@ -360,14 +362,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listarespecies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27038628" vertical-offset="1370" max-vertical-offset="2448">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state vertical-scroll-proportion="-4.8461537" vertical-offset="1370" max-vertical-offset="2448">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <marker date="1418980293534" expanded="true" signature="85:104" placeholder="..." />
-            <marker date="1418980293534" expanded="true" signature="414:427" placeholder="..." />
+            <marker date="1418980426963" expanded="true" signature="85:104" placeholder="..." />
+            <marker date="1418980426963" expanded="true" signature="414:427" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/especie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.027897" vertical-offset="0" max-vertical-offset="2125">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -86,7 +86,7 @@ require_once("clasess/Especie.php")
 
                $count = count($especies);
 
-        
+
                for($x = 0; $x < $count; $x++) {
                    $especie = $especies[$x];
                    $id =$especie->getId();

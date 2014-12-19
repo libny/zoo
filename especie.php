@@ -88,7 +88,7 @@
                     <input name="descripcion" id="descripcion" type="text" class="form-control"  required="">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary col-sm-2" >Update</button>
+            <button type="submit" class="btn btn-primary col-sm-2" >Crear</button>
         </form>
     </div>
 
